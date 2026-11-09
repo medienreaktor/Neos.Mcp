@@ -28,7 +28,7 @@ use Psr\Log\LoggerInterface;
 
 /**
  * The endpoint of the MCP server `__server` (see McpRoutesProvider): checks the access token, then hands the request
- * to neos/openapi-mcp, which offers the operations of the server's APIs as tools
+ * to medienreaktor/neos-openapi-mcp, which offers the operations of the server's APIs as tools
  *
  * The tools run in this request: their operations see the same authenticated token, which is bound to this server
  * (RFC 8707), and the same scope and privilege checks apply as over the API itself

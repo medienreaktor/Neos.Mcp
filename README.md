@@ -1,7 +1,7 @@
 # Neos.Mcp
 
 An [MCP](https://modelcontextprotocol.io) server for Neos on `/mcp`: every operation of the Neos API (Neos.Api) is a
-tool, built by [neos/openapi-mcp](https://github.com/danielkestler/neos-openapi-mcp). It speaks MCP 2026-07-28
+tool, built by [medienreaktor/neos-openapi-mcp](https://github.com/danielkestler/neos-openapi-mcp). It speaks MCP 2026-07-28
 (stateless Streamable HTTP).
 
 ## Usage
