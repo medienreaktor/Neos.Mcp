@@ -6,11 +6,11 @@
     "require": {
         "php": "^8.4",
         "neos/flow": "^9.0",
-        "medienreaktor/neos-oauth": "@dev",
+        "medienreaktor/neos-oauth": "^0.1",
         "neos/openapi-flowadapter": "*",
-        "medienreaktor/neos-openapi-mcp": "@dev",
+        "medienreaktor/neos-openapi-mcp": "^0.1",
         "guzzlehttp/psr7": "^2.4",
-        "medienreaktor/neos-api": "@dev"
+        "medienreaktor/neos-api": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -20,6 +20,9 @@
     "extra": {
         "neos": {
             "package-key": "Neos.Mcp"
+        },
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
         }
     }
 }
