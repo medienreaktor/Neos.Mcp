@@ -108,7 +108,7 @@ final readonly class McpController implements ControllerInterface
             [
                 // MCP clients aren't browsers: no cross-origin access
                 new CorsMiddleware(),
-                new DnsRebindingProtectionMiddleware($this->allowedHosts($serverName), $factory, $factory),
+                new DnsRebindingProtectionMiddleware($this->allowedHosts($serverName), responseFactory: $factory, streamFactory: $factory),
             ],
             $this->logger,
         );
